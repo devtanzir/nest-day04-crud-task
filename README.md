@@ -24,9 +24,9 @@ A simple backend CRUD application built with NestJS that manages **Products**, *
 
 This backend-only project is built using NestJS and provides CRUD operations for three entities:
 
-1. **Products** — Add, view, update, delete products.  
-2. **Customers** — Add, view, update, delete customer information.  
-3. **Brands** — Add, view, update, delete brand details.  
+1. **Products** - Add, view, update, delete products.  
+2. **Customers** - Add, view, update, delete customer information.  
+3. **Brands** - Add, view, update, delete brand details.  
 
 It uses DTOs for data validation and supports structured, modular development for scalability.
 
@@ -102,42 +102,42 @@ PORT=6060
 #### Product Routes
 
 ```bash 
-GET /product — Get all products
+GET /product - Get all products
 
-GET /product/:id — Get a single product by ID
+GET /product/:id - Get a single product by ID
 
-POST /product — Create a new product
+POST /product - Create a new product
 
-PATCH /product/:id — Update a product
+PATCH /product/:id - Update a product
 
-DELETE /product/:id — Delete a product 
+DELETE /product/:id - Delete a product 
 ```
 
 #### Customer Routes
 ```bash 
-GET /customer — Get all customers
+GET /customer - Get all customers
 
-GET /customer/:id — Get a single customer by ID
+GET /customer/:id - Get a single customer by ID
 
-POST /customer — Create a new customer
+POST /customer - Create a new customer
 
-PATCH /customer/:id — Update a customer
+PATCH /customer/:id - Update a customer
 
-DELETE /customer/:id — Delete a customer 
+DELETE /customer/:id - Delete a customer 
 
 ```
 
 #### Brand Routes
 ```bash 
-GET /brand — Get all brands
+GET /brand - Get all brands
 
-GET /brand/:id — Get a single brand by ID
+GET /brand/:id - Get a single brand by ID
 
-POST /brand — Create a new brand
+POST /brand - Create a new brand
 
-PATCH /brand/:id — Update a brand
+PATCH /brand/:id - Update a brand
 
-DELETE /brand/:id — Delete a brand
+DELETE /brand/:id - Delete a brand
 ```
 
 ### Folder Structure
